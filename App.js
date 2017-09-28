@@ -7,10 +7,14 @@ export default class App extends React.Component {
   state = {
     value: ""
   }
-  
+
   render() {
     return (
       <View style={styles.container}>
+        <Input
+          value={this.state.value}
+          onChange={(value) => this.setState({value: value})}
+        />
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
