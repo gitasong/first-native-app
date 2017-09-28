@@ -3,6 +3,11 @@ import { StyleSheet, Text, View, TouchableHighlight } from 'react-native';
 import Input from "./components/Input/Input";
 
 export default class App extends React.Component {
+
+  state = {
+    value: ""
+  }
+  
   render() {
     return (
       <View style={styles.container}>
