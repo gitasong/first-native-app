@@ -20,13 +20,15 @@ class NoMoreCards extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  width: 300,
-  height: 300,
-  borderRadius: 10,
-  borderColor: "#ea394b",
-  borderWidth: 2,
-  backgroundColor: "#04b1ff",
-  flex: 1,
-  alignItems: "center",
-  justifyContent: "center"
+  card: {
+    width: 300,
+    height: 300,
+    borderRadius: 10,
+    borderColor: "#ea394b",
+    borderWidth: 2,
+    backgroundColor: "#04b1ff",
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center"
+  }
 })
