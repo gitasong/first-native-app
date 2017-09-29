@@ -14,7 +14,7 @@ class Card extends React.Component {
 class NoMoreCards extends React.Component {
   render() {
     return (
-      <View>No More Cards</View>
+      <View style={styles.card}>No More Cards</View>
     );
   }
 }
