@@ -24,7 +24,7 @@ export default class Tinder extends React.Component {
   render() {
     return (
       <SwipeCards
-
+        cards={this.props.jokes}
       />
     )
   }
