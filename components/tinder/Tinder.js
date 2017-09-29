@@ -15,13 +15,15 @@ class Card extends React.Component {
 class NoMoreCards extends React.Component {
   render() {
     return (
-      <View style={styles.card}>No More Cards</View>
+      <View style={styles.card}>
+        <Text>No More Cards</Text>
+      </View>
     );
   }
 }
 
 export default class Tinder extends React.Component {
-  
+
   handleAccept() {
     console.log("I like this joke");
   }
