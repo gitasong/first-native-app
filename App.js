@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableHighlight } from 'react-native';
-import Input from "./components/input/Input";
+import Input from "./components/input/Input.js";
 
 export default class App extends React.Component {
 
@@ -15,6 +15,7 @@ export default class App extends React.Component {
         <Input
           value={this.state.value}
           onChange={(value) => this.setState({value: value})}
+          updateJokes={(jokes) => this.setState({jokes: jokes})}
         />
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
