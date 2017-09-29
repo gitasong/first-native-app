@@ -20,6 +20,16 @@ class NoMoreCards extends React.Component {
   }
 }
 
+export default class Tinder extends React.Component {
+  render() {
+    return (
+      <SwipeCards
+
+      />
+    )
+  }
+}
+
 const styles = StyleSheet.create({
   card: {
     width: 300,
