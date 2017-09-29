@@ -5,7 +5,8 @@ import Input from "./components/input/Input";
 export default class App extends React.Component {
 
   state = {
-    value: ""
+    value: "",
+    jokes: []
   }
 
   render() {
