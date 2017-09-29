@@ -16,7 +16,7 @@ class NoMoreCards extends React.Component {
   render() {
     return (
       <View>
-        <Text>No More Jokes</Text>
+        <Text>No Jokes Left</Text>
       </View>
     );
   }
