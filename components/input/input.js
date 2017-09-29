@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     backgroundColor: "teal",
     height: 40,
     width: 100,
-    borderColor: "gray,
+    borderColor: "gray",
     borderRadius: 5,
     alignItems: "center",
     justifyContent: "center"
