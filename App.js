@@ -18,7 +18,9 @@ export default class App extends React.Component {
           onChange={(value) => this.setState({value: value})}
           updateJokes={(jokes) => this.setState({jokes: jokes})}
         />
-        <Tinder/>
+        <Tinder
+          jokes={this.state.jokes}
+        />
       </View>
     );
   }
