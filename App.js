@@ -18,9 +18,7 @@ export default class App extends React.Component {
           onChange={(value) => this.setState({value: value})}
           updateJokes={(jokes) => this.setState({jokes: jokes})}
         />
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <Tinder/>
       </View>
     );
   }
