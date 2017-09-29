@@ -20,6 +20,7 @@ export default class App extends React.Component {
         />
         <Tinder
           jokes={this.state.jokes}
+          style={styles.tinder}
         />
       </View>
     );
@@ -33,4 +34,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  tinder: {
+    flex: 2
+  }
 });
