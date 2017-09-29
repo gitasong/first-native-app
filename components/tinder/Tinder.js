@@ -25,6 +25,7 @@ export default class Tinder extends React.Component {
     return (
       <SwipeCards
         cards={this.props.jokes}
+        renderCard={(jokeObject) => <Card joke={jokeObject.joke}/>}
       />
     )
   }
