@@ -21,6 +21,15 @@ class NoMoreCards extends React.Component {
 }
 
 export default class Tinder extends React.Component {
+  
+  handleAccept() {
+    console.log("I like this joke");
+  }
+
+  handleReject() {
+    console.log("I don't like this joke");
+  }
+
   render() {
     return (
       <SwipeCards
