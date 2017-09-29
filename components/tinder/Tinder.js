@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 class Card extends React.Component {
   render() {
     return (
-      <View>
+      <View style={styles.card}>
         <Text>{this.props.joke}</Text>
       </View>
     );
