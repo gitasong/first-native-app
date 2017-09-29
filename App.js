@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableHighlight } from 'react-native';
 import Input from "./components/input/Input.js";
+import Tinder from "./components/tinder/Tinder.js";
 
 export default class App extends React.Component {
 
